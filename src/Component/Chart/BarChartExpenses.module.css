@@ -1,0 +1,36 @@
+.BarContainer {
+  width: auto;
+  height: 350px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  /* margin: 10px; */
+}
+
+.BarContainer .recharts-wrapper {
+  overflow: visible;
+}
+
+.BarContainer .bar {
+  /* fill: rgb(0, 255, 76); */
+  fill: rgba(135, 132, 210, 1);
+
+  rx: 15px; /* Rounded ends */
+}
+
+.BarContainer .grid line {
+  display: none; /* Hide horizontal grid lines */
+}
+
+.BarContainer .grid line {
+  display: none; /* Hide vertical grid lines */
+}
+
+.Heading {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}

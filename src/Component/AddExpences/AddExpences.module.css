@@ -1,0 +1,122 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 181px;
+  border-radius: 15px;
+  background: rgba(155, 155, 155, 1);
+  color: white;
+  padding: 15px 35px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  top: 245px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.47px;
+  text-align: center;
+}
+
+.Container span {
+  color: rgba(244, 187, 74, 1);
+}
+
+.BtnExpense {
+  font-size: 16px;
+  width: 167px;
+  height: 38px;
+  background: linear-gradient(90deg, #ff9595 0%, #ff4747 80%, #ff3838 100%);
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+.FormContainer {
+  width: 538px;
+  height: 335px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 15px;
+  background: rgba(239, 239, 239, 0.85);
+  position: relative;
+}
+
+.ExpenseForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  /* align-items: center; */
+  position: relative;
+  z-index: 3;
+  /* align-items: flex-start; */
+}
+
+.Backdrop {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.77);
+}
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  padding: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+
+/* .ExpenseForm input,
+.ExpenseForm select {
+  text-align: left;
+  padding-left: 10px;
+  width: 230px;
+  height: 51px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+} */
+.ExpenseForm input,
+.ExpenseForm select,
+.AddBtn,
+.CancleBtn {
+  border: none;
+  margin: 5px;
+}
+
+.inputBox {
+  text-align: left;
+  padding-left: 10px;
+  width: 230px;
+  height: 51px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.AddBtn {
+  width: 229px;
+  height: 51px;
+  border-radius: 15px;
+  color: white;
+  background: linear-gradient(0deg, #f4bb4a, #f4bb4a);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.CancleBtn {
+  width: 112px;
+  height: 51px;
+  border-radius: 15px;
+  background: linear-gradient(0deg, #d9d9d9, #d9d9d9);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

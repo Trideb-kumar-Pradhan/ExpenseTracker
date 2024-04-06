@@ -1,0 +1,98 @@
+.Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 10px 20px;
+  margin: 15px 0;
+}
+.MainContent {
+  background-color: white;
+  height: 350px;
+  border-radius: 15px;
+  padding: 20px;
+}
+.MainContent li {
+  list-style-type: none;
+}
+.Heading {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.FirstBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LastBox {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.Round {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(217, 217, 217, 1);
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Btn {
+  width: 37px;
+  height: 37px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 0 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navigator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.NumBox {
+  width: 37px;
+  height: 37px;
+  border-radius: 8px;
+  color: black;
+  background: rgba(67, 150, 123, 1);
+}
+
+.DeleteBtn {
+  background: rgba(255, 62, 62, 1);
+}
+
+.EditBtn {
+  background: rgba(244, 187, 74, 1);
+}
+
+.Price {
+  color: rgba(244, 187, 74, 1);
+}
+.Date {
+  color: rgba(155, 155, 155, 1);
+}
+
+.leftBtn {
+  background: rgba(241, 241, 241, 1);
+  color: black;
+  /* align-content: center; */
+}
